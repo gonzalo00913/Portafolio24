@@ -1,0 +1,47 @@
+.containerAll {
+  width: 740px;
+  margin: auto;
+  margin-top: 220px;
+}
+
+.containerProyects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projects {
+  background-color:  #17191d;
+  border: 2px solid rgb(107 114 128);
+  border-radius: 10px;
+  padding: 10px;
+  width: 210px;
+  margin-top:20px ;
+}
+
+.titleProjects {
+  margin-top: 35px;
+
+}
+
+h4 {
+  margin-top: 5px;
+ 
+}
+.desProjects {
+  margin-top: -5px;
+  font-size: 16px;
+}
+.containerTecno {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spanTecno {
+  margin: 2px;
+  background-color: rgb(197, 64, 16);
+  color: #e2e3e7d4;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 3px;
+}

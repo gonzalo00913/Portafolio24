@@ -1,0 +1,44 @@
+:root {
+  --title-size-h1: 40px;
+  --title-size-h2: 30px;
+  --title-size-h4: 17px;
+  --text-color: rgb(143, 146, 152);
+  --title-color: #e2e3e7d4;
+}
+
+body {
+  font-family: monospace;
+  background-color: #111213;
+  margin: 0;
+}
+
+p {
+  color: var(--text-color);
+}
+h1 {
+  font-size: var(--title-size-h1);
+}
+h2 {
+  font-size: var(--title-size-h2);
+}
+
+h4 {
+  font-size: var(--title-size-h4);
+}
+h1,
+h2,
+h4 {
+  color: var(--title-color);
+}
+
+i {
+  font-size: 25px;
+  margin: 20px;
+  margin-bottom: -1px;
+  color: #e2e3e7d4;
+}
+
+a{
+  color: white;
+  
+}

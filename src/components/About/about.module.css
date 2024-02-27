@@ -1,0 +1,16 @@
+:root {
+  --text-color: rgb(107 114 128);
+  --text-size: 12px;
+  --text-size-parrafo: 17px;
+  --letter-spacing: 2px;
+  --title-spacing: -1px;
+}
+
+.containerAbout {
+  width: 770px;
+  margin: auto;
+  margin-top: 40px;
+}
+.sizeText {
+  font-size: 21px;
+}

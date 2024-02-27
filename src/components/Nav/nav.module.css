@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #17191d;
+  padding: 18px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.containerLinks {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-right: 120px;
+
+}
+.nameIcon {
+  font-size: 14px;
+  color: #e2e3e7d4;
+  margin-right: 25px;
+ 
+
+
+}
+
+.imgLogo {
+  width: 65px;
+  display: block;
+  float: left;
+  margin-left: 180px;
+
+
+}
+.link {
+ list-style: none;
+text-decoration: none;
+
+
+}

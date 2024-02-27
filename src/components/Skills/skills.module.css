@@ -1,0 +1,29 @@
+.containerAll {
+    width: 740px;
+    margin: auto;
+    margin-top: 220px;
+  }
+
+  .containerLogos {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logoHabilidades {
+    width: 75px;
+    margin: 10px;
+    padding:10px;
+    transition: all 0.2s ease;
+    background-color: #17191d;
+    border-radius: 20px;
+  
+    box-shadow: 0 0 5px #494949;
+  }
+  
+  .PnombreTecnologia {
+    font-weight: bolder;
+    margin-top: -10px;
+    text-align: center;
+  }

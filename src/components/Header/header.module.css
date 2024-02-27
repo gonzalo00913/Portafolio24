@@ -1,0 +1,84 @@
+/* Estilos container principal*/
+.containerHeader {
+  width: 740px;
+  margin: auto;
+  margin-top: 250px;
+}
+
+.containerInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos para textos */
+.title {
+  margin-bottom: -10px;
+  letter-spacing: -1px;
+}
+.colorTextCountry {
+  font-size: 13px;
+
+  margin-top: -10px;
+}
+
+.sizeText {
+  width: 540px;
+  font-size: 21px;
+
+  margin-top: 15px;
+}
+
+/* estilos de iconos */
+.socialMedia {
+  display: flex;
+}
+
+.iconsMediaSize {
+  width: 18px;
+  border: 1px solid rgb(208, 208, 208);
+  border-radius: 5px;
+  margin-right: 12px;
+  padding: 3px;
+}
+
+.iconsMediaSize:hover {
+  background-color: rgb(213, 213, 213);
+}
+
+.flexIconCountry {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.iconSize {
+  width: 3%;
+  height: 4%;
+  margin-top: -10px;
+  margin-right: 5px;
+}
+
+/*********************/
+
+.imgSize {
+  width: 178px;
+  border-radius: 50%;
+  border: 4px solid rgb(197, 64, 16);
+  margin-top: 24px;
+}
+
+.abuotBtn,
+.cvBtn {
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: rgb(197, 64, 16);
+  color: rgb(213, 213, 213);
+  font-weight: bolder;
+  cursor: pointer;
+
+  margin-right: 4px;
+}
+
+.btnPdf{
+  text-decoration: none;
+}
