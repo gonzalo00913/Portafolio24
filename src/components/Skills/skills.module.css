@@ -1,29 +1,54 @@
 .containerAll {
-    width: 740px;
-    margin: auto;
-    margin-top: 220px;
-  }
+  width: 740px;
+  margin: auto;
+  margin-top: 220px;
+}
 
-  .containerLogos {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .logoHabilidades {
-    width: 75px;
-    margin: 10px;
-    padding:10px;
-    transition: all 0.2s ease;
-    background-color: #17191d;
-    border-radius: 20px;
-  
-    box-shadow: 0 0 5px #494949;
-  }
-  
-  .PnombreTecnologia {
-    font-weight: bolder;
-    margin-top: -10px;
-    text-align: center;
-  }
+.containerLogos {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logoHabilidades {
+  width: 75px;
+  margin: 10px;
+  padding: 10px;
+  transition: all 0.2s ease;
+  background-color: #17191d;
+  border-radius: 20px;
+
+  box-shadow: 0 0 5px #494949;
+}
+
+.PnombreTecnologia {
+  font-weight: bolder;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.cvDownload {
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: rgb(197, 64, 16);
+  color: rgb(213, 213, 213);
+  font-weight: bolder;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.cvDownload:hover {
+  border: 2px solid rgb(143, 146, 152);
+}
+
+.btnPdf {
+  text-decoration: none;
+}
+
+.flexBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

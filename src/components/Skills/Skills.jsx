@@ -8,22 +8,18 @@ import logoExpress from "../../assets/logos/express.png";
 import logoGit from "../../assets/logos/git.png";
 import logoNode from "../../assets/logos/nodejs.png";
 import logoSQL from "../../assets/logos/sql.png";
-import logoBootstrap from "../../assets/logos/bootstrap.png";
 import logoPostgresql from "../../assets/logos/postgresql.png";
-import sequelize from "../../assets/logos/sequelize.png";
 import mongodb from "../../assets/logos/mongodb.png";
-import github from "../../assets/logos/github.png";
-
 import trello from "../../assets/logos/trello.png";
-//import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-/* import CV from "../assets/GonzaloMasa-CV.pdf";
-import "../Habilidades/styleHabilidades.css"; */
+import CV from "../../assets/GonzaloMasa-CV.pdf";
+//import "../Habilidades/styleHabilidades.css"; 
 
 const Habilidades = () => {
   return (
     <div className={style.containerAll}>
-      <h2>Skills</h2>
+      <h2>Habilidades</h2>
       <div>
         <section className={style.containerLogos}>
           <div>
@@ -83,16 +79,16 @@ const Habilidades = () => {
             <p className={style.PnombreTecnologia}>Trello</p>
           </div>
         </section>
-        {/*         <p className="parrafo-habilidades">
-          <button className="cv-download">
-            <a className="btn-pdf" href={CV} download="GonzaloMasa-CV.pdf">
+         <div className={style.flexBtn}>
+          <button className={style.cvDownload}>
+            <a className={style.btnPdf} href={CV} download="GonzaloMasa-CV.pdf">
               Descargar CV
             </a>
           </button>
           <NavLink to={"/certificados"}>
-            <button className="cv-download">Ver Certificados</button>
+            <button className={style.cvDownload}>Ver Certificados</button>
           </NavLink>
-        </p> */}
+          </div>
       </div>
     </div>
   );

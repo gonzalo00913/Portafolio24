@@ -15,35 +15,19 @@
   margin-bottom: -10px;
   letter-spacing: -1px;
 }
+
 .colorTextCountry {
   font-size: 13px;
-
   margin-top: -10px;
 }
 
 .sizeText {
   width: 540px;
   font-size: 21px;
-
   margin-top: 15px;
 }
 
 /* estilos de iconos */
-.socialMedia {
-  display: flex;
-}
-
-.iconsMediaSize {
-  width: 18px;
-  border: 1px solid rgb(208, 208, 208);
-  border-radius: 5px;
-  margin-right: 12px;
-  padding: 3px;
-}
-
-.iconsMediaSize:hover {
-  background-color: rgb(213, 213, 213);
-}
 
 .flexIconCountry {
   display: flex;
@@ -75,10 +59,30 @@
   color: rgb(213, 213, 213);
   font-weight: bolder;
   cursor: pointer;
-
   margin-right: 4px;
 }
 
-.btnPdf{
+.abuotBtn:hover,
+.cvBtn:hover {
+  border: 2px solid rgb(143, 146, 152);
+}
+
+.btnPdf {
   text-decoration: none;
+}
+
+
+.containerHeader {
+  animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

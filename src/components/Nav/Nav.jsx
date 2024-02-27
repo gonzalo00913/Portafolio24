@@ -7,12 +7,13 @@ const Nav = () => {
   return (
     <div>
       <nav className={style.navbar}>
+        <NavLink to="/">
          <div className="">
           <img className={style.imgLogo} src={imgLogo} alt="logo" />
         </div>
-
+        </NavLink>
         <div className={style.containerLinks}>
-          <NavLink to="/" exact title="Home">
+          <NavLink className={style.link} to="/" exact title="Home">
            <i className="fa-solid fa-house"></i><br />
           <span className={style.nameIcon}></span>
           </NavLink>
@@ -24,7 +25,7 @@ const Nav = () => {
                <i className="fa-solid fa-sheet-plastic"></i><br />
           <span className={style.nameIcon}></span>
           </NavLink>
-          <NavLink >
+          <NavLink className={style.link}>
            <i className="fa-solid fa-phone"></i><br />
           <span className={style.nameIcon}></span>
           </NavLink>

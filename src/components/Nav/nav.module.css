@@ -1,6 +1,6 @@
 .navbar {
   background-color: #17191d;
-  padding: 18px;
+  padding-top: 20px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -12,15 +12,12 @@
   justify-content: right;
   align-items: center;
   margin-right: 120px;
-
 }
+
 .nameIcon {
   font-size: 14px;
   color: #e2e3e7d4;
   margin-right: 25px;
- 
-
-
 }
 
 .imgLogo {
@@ -28,12 +25,28 @@
   display: block;
   float: left;
   margin-left: 180px;
-
-
 }
 .link {
- list-style: none;
-text-decoration: none;
+  color: #e2e3e7;
+  list-style: none;
+  margin: 16px;
+  font-size: 24px;
+}
+.link.active {
+  color: rgb(197, 64, 16);
+}
+.link:hover {
+  animation-name: color;
+  animation-duration: 100ms;
+  animation-fill-mode: forwards;
+  transition: all 0.3s ease-in-out;
+}
 
-
+.link {
+  transition: all 0.3s ease-in-out;
+}
+@keyframes color {
+  100% {
+    color: rgb(197, 64, 16);
+  }
 }
