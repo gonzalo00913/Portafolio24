@@ -1,5 +1,6 @@
 import React from "react";
 import Style from "../Footer/footer.module.css";
+import Media from "../Media/Media";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <i class="fa-solid fa-phone"></i> +54 221-561-3460
         </p>
       </div> */}
-      <div className={Style.contact}>
+{/*       <div className={Style.contact}>
        <a className={Style.l} href="https://www.linkedin.com/in/gonzalo-masa/">
           <i className="fa-brands fa-linkedin"></i>
         </a>
@@ -28,7 +29,9 @@ const Footer = () => {
         >
           <i className="fa-brands fa-twitter"></i>
         </a>
-      </div>
+      </div> */}
+
+      <Media/>
     </div>
   );
 };

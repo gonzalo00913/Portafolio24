@@ -7,39 +7,6 @@
     width: 100%;
     z-index: 1;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
   }
-  
-  .contact {
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 50px;
-
-  }
-  .info {
-    margin-right: 20px;
-
-  }
-  
-  .l {
-    margin: 10px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #e2e3e7d4;
-  }
-  .g {
-    margin: 10px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #e2e3e7d4;
-  }
-  .t {
-    margin: 10px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #e2e3e7d4;
-  }
-  
-
