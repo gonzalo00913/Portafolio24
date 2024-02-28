@@ -25,7 +25,7 @@ const Nav = () => {
                <i className="fa-solid fa-sheet-plastic"></i><br />
           <span className={style.nameIcon}></span>
           </NavLink>
-          <NavLink className={style.link}>
+          <NavLink className={style.link} to="/Contact">
            <i className="fa-solid fa-phone"></i><br />
           <span className={style.nameIcon}></span>
           </NavLink>

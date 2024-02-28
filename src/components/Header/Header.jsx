@@ -2,6 +2,7 @@ import style from "../Header/header.module.css";
 import img from "../../assets/me.png";
 import worldCountryIcon from "../../assets/world-country.png";
 import CV from "../../assets/GonzaloMasa-CV.pdf";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -22,9 +23,9 @@ const Header = () => {
             </div>
 
             <div className="buttons">
-              {/*   <NavLink to="/contact"> */}
+                <NavLink to="/Contact">
               <button className={style.abuotBtn}>Contacto</button>
-              {/*  </NavLink> */}
+               </NavLink>
               <button className={style.cvBtn}>
                 <a
                   className={style.btnPdf}
