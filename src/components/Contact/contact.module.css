@@ -2,53 +2,51 @@
   width: 740px;
   margin: auto;
   margin-top: 220px;
-  height: 650px;
+  
 }
 
 .containerNeb {
   display: flex;
-  flex-direction: column;
-  width: 340px;
-  height: 420px;
-  margin: auto;
-  border-radius: 15px;
-  border: 3px solid rgb(197, 64, 16);
-  background-color: #17191d;
-  box-shadow: 0 0 10px #393939;
-  padding: 10px;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .containerName,
 .containerEmail {
   margin-top: 10px;
   display: flex;
-  margin-left: 12px;
-  align-items: center;
+  width: 49%;
+ 
   color: #ebebeb;
+}
+.containerEmail{
+  margin-left: -88px;
 }
 
 .containerMensaje {
   display: flex;
   flex-direction: column;
-  font-size: 19px;
   margin-top: 10px;
-
 }
 .input{
-   
-    margin-right: 70px;
+  border: 2px solid rgb(197, 64, 16);
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
 }
 
 .textarea {
   height: 220px;
   margin: 14px;
   border-radius: 10px;
-  width: 80%;
+  width: 440px;
   margin: auto;
   background-color: rgba(54, 54, 54, 0.825);
   text-align: center;
   padding: 30px;
   color: white;
+  border: 2px solid rgb(197, 64, 16);
+  font-size: 18px;
 }
 input {
   margin: auto;
@@ -58,6 +56,7 @@ input {
   border-radius: 10px;
   height: 20px;
   background-color: rgba(54, 54, 54, 0.825);
+
 }
 
 .buton {

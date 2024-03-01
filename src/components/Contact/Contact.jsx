@@ -49,7 +49,7 @@ const Contact = () => {
       >
         <div className={style.containerNeb}>
           <div className={style.containerName}>
-            <label htmlFor="name">Nombre</label>
+            <label htmlFor="name"></label>
             <input
               placeholder="Nombre..."
               type="text"
@@ -61,9 +61,9 @@ const Contact = () => {
             />
           </div>
           <div className={style.containerEmail}>
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email"></label>
             <input
-              placeholder="Correo electronico"
+              placeholder="Correo electronico..."
               type="email"
               className={style.input} 
               id="email"
@@ -71,6 +71,7 @@ const Contact = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
+          </div>
           </div>
           <div className={style.containerMensaje}>
             <label htmlFor="message"></label>
@@ -82,11 +83,12 @@ const Contact = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-          </div>
-          <button className={style.buton} type="submit" disabled={isSending}>
+                 <button className={style.buton} type="submit" disabled={isSending}>
             {isSending ? "Enviando..." : "Enviar"}
           </button>
-        </div>
+          </div>
+     
+       
       </form>
     </div>
   );
