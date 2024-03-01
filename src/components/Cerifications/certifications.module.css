@@ -1,0 +1,14 @@
+.containerAll {
+  width: 800px;
+  margin: auto;
+  margin-top: 220px;
+}
+.imgCertifiactions {
+  width: 730px;
+  margin: 10px;
+}
+.flexCertification {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -2,7 +2,6 @@
   width: 740px;
   margin: auto;
   margin-top: 220px;
-  
 }
 
 .containerNeb {
@@ -16,10 +15,9 @@
   margin-top: 10px;
   display: flex;
   width: 49%;
- 
   color: #ebebeb;
 }
-.containerEmail{
+.containerEmail {
   margin-left: -88px;
 }
 
@@ -28,7 +26,7 @@
   flex-direction: column;
   margin-top: 10px;
 }
-.input{
+.input {
   border: 2px solid rgb(197, 64, 16);
   height: 30px;
   font-size: 18px;
@@ -41,7 +39,7 @@
   border-radius: 10px;
   width: 440px;
   margin: auto;
-  background-color: rgba(54, 54, 54, 0.825);
+  background-color: #17191d;
   text-align: center;
   padding: 30px;
   color: white;
@@ -50,13 +48,11 @@
 }
 input {
   margin: auto;
-  /*  width: 16.2rem; */
   width: 60%;
   color: white;
   border-radius: 10px;
   height: 20px;
-  background-color: rgba(54, 54, 54, 0.825);
-
+  background-color: #17191d;
 }
 
 .buton {
@@ -90,4 +86,3 @@ input {
     transform: translateY(0);
   }
 }
-

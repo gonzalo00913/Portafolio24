@@ -12,6 +12,7 @@ import logoPostgresql from "../../assets/logos/postgresql.png";
 import mongodb from "../../assets/logos/mongodb.png";
 import trello from "../../assets/logos/trello.png";
 import { NavLink } from "react-router-dom";
+import Certifications from "../Cerifications/Certifications";
 
 import CV from "../../assets/GonzaloMasa-CV.pdf";
 //import "../Habilidades/styleHabilidades.css"; 
@@ -85,7 +86,7 @@ const Habilidades = () => {
               Descargar CV
             </a>
           </button>
-          <NavLink to={"/certificados"}>
+          <NavLink to={"/Certifications"}>
             <button className={style.cvDownload}>Ver Certificados</button>
           </NavLink>
           </div>
