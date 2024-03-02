@@ -51,7 +51,7 @@ const Contact = () => {
           <div className={style.containerName}>
             <label htmlFor="name"></label>
             <input
-              placeholder="Nombre..."
+              placeholder="Ingresa tu nombre aqui..."
               type="text"
               className={style.input} 
               id="name"
@@ -63,7 +63,7 @@ const Contact = () => {
           <div className={style.containerEmail}>
             <label htmlFor="email"></label>
             <input
-              placeholder="Correo electronico..."
+              placeholder="Ingresa tu correo electronico aqui..."
               type="email"
               className={style.input} 
               id="email"

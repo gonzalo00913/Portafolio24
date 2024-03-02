@@ -28,7 +28,7 @@ const Projects = () => {
             <h4>Meddy plus</h4>
           </a>
           <p className={style.desProjects}>
-            Contribuí en el desarrollador back-end en la creación de una pagina
+            Contribuí al desarrollo back-end de una pagina
             web dedicada a la gestión de historiales clínicos.
           </p>
           <div className={style.containerTecno}>
@@ -64,8 +64,7 @@ const Projects = () => {
           </a>
           <p className={style.desProjects}>
             Utilicé JavaScript para manipular el DOM y crear la lógica de la
-            calculadora. Implementé funciones para realizar operaciones
-            matemáticas básicas.
+            calculadora.
           </p>
           <div className={style.containerTecno}>
             <span className={style.spanTecno}>JavaScript</span>
@@ -92,8 +91,7 @@ const Projects = () => {
           <h4>Etch-A-Sketch</h4>
           </a>
           <p className={style.desProjects}>
-            "En este proyecto, utilicé JavaScript para crear la lógica del
-            Etch-A-Sketch. Implementé eventos del mouse para capturar los
+            Implementé eventos del mouse para capturar los
             movimientos del cursor y dibujar líneas en el lienzo
           </p>
           <div className={style.containerTecno}>

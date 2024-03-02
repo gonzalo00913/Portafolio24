@@ -6,6 +6,7 @@
 
 .containerNeb {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   border-radius: 10px;
 }
@@ -14,11 +15,13 @@
 .containerEmail {
   margin-top: 10px;
   display: flex;
-  width: 49%;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
   color: #ebebeb;
 }
 .containerEmail {
-  margin-left: -88px;
+  display: flex;
 }
 
 .containerMensaje {
@@ -37,7 +40,7 @@
   height: 220px;
   margin: 14px;
   border-radius: 10px;
-  width: 440px;
+  width: 390px;
   margin: auto;
   background-color: #17191d;
   text-align: center;

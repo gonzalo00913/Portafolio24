@@ -1,7 +1,7 @@
 .containerAll {
   width: 740px;
   margin: auto;
-  margin-top: 220px;
+  margin-top: 180px;
   height: 800px;
 }
 
@@ -17,6 +17,7 @@
   border-radius: 10px;
   padding: 10px;
   width: 210px;
+  height: 220px;
   margin-top:20px ;
 }
 
