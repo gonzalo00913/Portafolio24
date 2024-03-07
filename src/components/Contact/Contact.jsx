@@ -42,6 +42,7 @@ const Contact = () => {
   return (
     <div className={style.containerForm}>
         <h2>Contacto</h2>
+       <div className={style.backColor}> 
       <form
         className={style.contenedorEmail}
         ref={formRef}
@@ -83,13 +84,16 @@ const Contact = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
+            <div className={style.containerBtn}>
                  <button className={style.buton} type="submit" disabled={isSending}>
             {isSending ? "Enviando..." : "Enviar"}
           </button>
           </div>
+          </div>
      
        
       </form>
+      </div>
     </div>
   );
 };

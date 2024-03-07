@@ -17,7 +17,7 @@ const Certifications = () => {
           alt=""
         />
           <NavLink to="/Skills">
-        <button className={style.abuotBtn}>Volver</button>
+        <button class="button danger-button">Volver</button>
       </NavLink>
       </div>
     

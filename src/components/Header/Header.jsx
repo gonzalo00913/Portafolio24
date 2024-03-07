@@ -24,9 +24,9 @@ const Header = () => {
 
             <div className="buttons">
                 <NavLink to="/Contact">
-              <button className={style.abuotBtn}>Contacto</button>
+              <button class="button danger-button">Contacto</button>
                </NavLink>
-              <button className={style.cvBtn}>
+              <button class="button danger-button">
                 <a
                   className={style.btnPdf}
                   href={CV}

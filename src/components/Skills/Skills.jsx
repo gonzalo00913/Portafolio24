@@ -15,7 +15,7 @@ import { NavLink } from "react-router-dom";
 import Certifications from "../Cerifications/Certifications";
 
 import CV from "../../assets/GonzaloMasa-CV.pdf";
-//import "../Habilidades/styleHabilidades.css"; 
+//import "../Habilidades/styleHabilidades.css";
 
 const Habilidades = () => {
   return (
@@ -35,7 +35,7 @@ const Habilidades = () => {
             <img className={style.logoHabilidades} src={logoJs} alt="" />
             <p className={style.PnombreTecnologia}>JavaScript</p>
           </div>
-     
+
           <div>
             <img className={style.logoHabilidades} src={logoReact} alt="" />
             <p className={style.PnombreTecnologia}>React</p>
@@ -73,23 +73,22 @@ const Habilidades = () => {
             <img className={style.logoHabilidades} src={logoGit} alt="" />
             <p className={style.PnombreTecnologia}>Git</p>
           </div>
-      
 
           <div>
             <img className={style.logoHabilidades} src={trello} alt="" />
             <p className={style.PnombreTecnologia}>Trello</p>
           </div>
         </section>
-         <div className={style.flexBtn}>
-          <button className={style.cvDownload}>
+        <div className={style.flexBtn}>
+          <button class="button danger-button">
             <a className={style.btnPdf} href={CV} download="GonzaloMasa-CV.pdf">
               Descargar CV
             </a>
           </button>
           <NavLink to={"/Certifications"}>
-            <button className={style.cvDownload}>Ver Certificados</button>
+            <button class="button danger-button">Ver Certificados</button>
           </NavLink>
-          </div>
+        </div>
       </div>
     </div>
   );

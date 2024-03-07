@@ -28,21 +28,6 @@
   text-align: center;
 }
 
-.cvDownload {
-  padding: 5px;
-  font-size: 18px;
-  border-radius: 10px;
-  background-color: rgb(197, 64, 16);
-  color: rgb(213, 213, 213);
-  font-weight: bolder;
-  cursor: pointer;
-  margin-right: 4px;
-}
-
-.cvDownload:hover {
-  border: 2px solid rgb(143, 146, 152);
-}
-
 .btnPdf {
   text-decoration: none;
 }
