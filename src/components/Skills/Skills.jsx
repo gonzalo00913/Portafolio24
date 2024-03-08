@@ -20,7 +20,8 @@ import CV from "../../assets/GonzaloMasa-CV.pdf";
 const Habilidades = () => {
   return (
     <div className={style.containerAll}>
-      <h2>Habilidades</h2>
+    
+      <h2>Tecnologías</h2>
       <div>
         <section className={style.containerLogos}>
           <div>

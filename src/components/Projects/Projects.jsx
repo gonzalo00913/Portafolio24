@@ -3,7 +3,7 @@ import style from "../Projects/projects.module.css";
 const Projects = () => {
   return (
     <div className={style.containerAll}>
-      <h2 className={style.titleProjects}>Mis proyectos</h2>
+      <h2 className={style.titleProjects}>Proyectos</h2>
       <section className={style.containerProyects}>
         <div className={style.projects}>
           <a href="https://granodeoro.vercel.app/" target="_blanck">
