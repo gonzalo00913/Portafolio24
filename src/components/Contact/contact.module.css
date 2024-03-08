@@ -1,7 +1,7 @@
 .containerForm {
   width: 740px;
   margin: auto;
-  margin-top: 220px;
+  margin-top: 180px;
 }
 
 .containerNeb {
@@ -39,7 +39,7 @@
   height: 220px;
   margin: 14px;
   border-radius: 10px;
-  width: 390px;
+  width: 280px;
   margin: auto;
   background-color: #17191d;
   text-align: center;
@@ -84,7 +84,7 @@ input {
   border: 2px solid rgb(197, 64, 16);
   padding: 10px;
   border-radius: 10px;
-  width: 500px;
+  width: 350px;
   margin: auto;
 }
 
