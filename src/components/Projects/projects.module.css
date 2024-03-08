@@ -9,7 +9,18 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+ 
 }
+
+.containerProyects::-webkit-scrollbar{
+  width: 117px;
+
+}
+
+.containerProyects::-webkit-scrollbar-thumb{
+background-color: red;
+}
+
 
 .projects {
   background-color: #17191d;

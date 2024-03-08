@@ -12,6 +12,16 @@ body {
   margin: 0;
 }
 
+body::-webkit-scrollbar {
+  width: 7px;
+
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(202, 71, 23);
+  }
+  
+
 p {
   color: var(--text-color);
 }
