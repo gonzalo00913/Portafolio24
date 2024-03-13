@@ -41,12 +41,6 @@ h4 {
   color: var(--title-color);
 }
 
-/* i {
-  font-size: 25px;
-  margin: 20px;
-  margin-bottom: -1px;
-  color: #e2e3e7d4;
-} */
 
 a {
   color: white;
@@ -73,3 +67,5 @@ a {
 .danger-button:hover {
   background-color: rgb(202, 71, 23);
 }
+
+
