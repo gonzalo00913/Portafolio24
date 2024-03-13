@@ -24,7 +24,7 @@ const Header = () => {
 
             <div className="buttons">
                 <NavLink to="/Contact">
-              <button class="button danger-button">Contacto</button>
+              <button class="button danger-button"><span class="text">Contacto</span></button>
                </NavLink>
               <button class="button danger-button">
                 <a
@@ -32,7 +32,7 @@ const Header = () => {
                   href={CV}
                   download="GonzaloMasa-CV.pdf"
                 >
-                  Descargar CV
+                  <span class="text">Descargar CV</span>
                 </a>
               </button>
             </div>

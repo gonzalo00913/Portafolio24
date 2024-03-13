@@ -1,7 +1,7 @@
 .containerForm {
   width: 740px;
   margin: auto;
-  margin-top: 220px;
+  margin-top: 150px;
 }
 
 .form {
@@ -10,6 +10,7 @@
   align-items: flex-start;
   flex-direction: column;
   margin: auto;
+  height: 370px;
   gap: 10px;
   width: 300px;
   background-color: #17191d;
@@ -35,12 +36,14 @@
   border: 1px solid #e2e3e7;
   padding: 8px 14px;
   border-radius: 8px;
+
   width: 90%;
   height: 50px;
 }
 
 .input{
-  background-color: #e2e3e7d4;
+  background-color: #e2e3e7d1;
+  margin-top: 5px;
 }
 
 .form textarea {

@@ -41,9 +41,9 @@ const Contact = () => {
 
   return (
     <div className={style.containerForm}>
-
+<h2>Contacto</h2>
       <form class={style.form} ref={formRef} onSubmit={handleSubmit}>
-        <div class={style.title}>Contacto</div>
+        
         <input
           placeholder="Ingresa tu nombre aqui..."
           type="text"
