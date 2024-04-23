@@ -6,6 +6,30 @@ const Projects = () => {
     <div className={style.containerAll}>
       <h2 className={style.titleProjects}>Proyectos</h2>
       <section className={style.containerProyects}>
+      <div className={style.projects}>
+          <div className={style.titleGh}>
+            <a href="https://auto-menu-app.vercel.app/admin/login" target="_blanck">
+              <h4>Auto Menu</h4>
+            </a>
+            <a
+              href="https://github.com/nicoflorentin/auto-menu/tree/main"
+              target="_blanck"
+            >
+              <img className={style.iconsMediaSize} src={github} alt="GitHub" />
+            </a>
+          </div>
+          <p className={style.desProjects}>
+          Permite crear fácilmente un diseño de menú para un restaurante o bar sin necesidad de diseñar.
+          </p>
+          <div className={style.containerTecno}>
+            <span className={style.spanTecno}>JavaScript</span>
+            <span className={style.spanTecno}>Vite</span>
+            <span className={style.spanTecno}>Redux</span>
+            <span className={style.spanTecno}>Express</span>
+            <span className={style.spanTecno}>Node</span>
+            <span className={style.spanTecno}>MongoDB</span>
+          </div>
+        </div>
         <div className={style.projects}>
           <div className={style.titleGh}>
             <a href="https://granodeoro.vercel.app/" target="_blanck">
@@ -21,7 +45,7 @@ const Projects = () => {
           <p className={style.desProjects}>
             Contribuí al desarrollo front-end de una pagina web dedicada a la
             venta de café.
-          </p>
+          </p><br />
           <div className={style.containerTecno}>
             <span className={style.spanTecno}>JavaScript</span>
             <span className={style.spanTecno}>Vite</span>
@@ -103,7 +127,7 @@ const Projects = () => {
           <p className={style.desProjects}>
             Utilicé JavaScript para manipular el DOM y crear la lógica de la
             calculadora.
-          </p>
+          </p><br />
           <div className={style.containerTecno}>
             <span className={style.spanTecno}>JavaScript</span>
             <span className={style.spanTecno}>CSS</span>
