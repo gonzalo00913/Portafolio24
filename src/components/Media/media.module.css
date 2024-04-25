@@ -16,3 +16,26 @@
     background-color: rgb(197, 64, 16);
      border-radius: 5px;
   }
+
+  @media screen and (max-width: 600px) {
+
+    .socialMedia {
+      display: flex;
+     
+      margin-right: 70px;
+    }
+    
+    .iconsMediaSize {
+      width: 20px;
+   
+     
+      margin-right: 12px;
+      padding: 3px;
+    }
+    
+    .iconsMediaSize:hover {
+      background-color: rgb(197, 64, 16);
+       border-radius: 5px;
+    }
+  
+  }
