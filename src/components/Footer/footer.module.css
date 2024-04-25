@@ -25,12 +25,12 @@
   letter-spacing: -1px;
 }
 
-.info:hover{
+.info:hover {
   color: white;
   border-radius: 5px;
 }
 
-.footer{
+.footer {
   animation: fade-in 1s ease-in;
 }
 
@@ -43,4 +43,20 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@media screen and (max-width: 700px) {
+  .contact {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+  }
+
+ 
+  
 }
