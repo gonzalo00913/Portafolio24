@@ -52,3 +52,42 @@
     transform: translateY(0);
   }
 }
+
+
+@media screen and (max-width: 600px) {
+  .containerAll {
+    width: 100%;
+    margin: auto;
+    margin-top: 120px;
+  }
+  
+  .containerLogos {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .logoHabilidades {
+    width: 60px;
+    margin: 8px;
+    padding: 8px;
+  }
+  
+  .PnombreTecnologia {
+    font-weight: bolder;
+    margin-top: -10px;
+    text-align: center;
+  }
+  
+  .btnPdf {
+    text-decoration: none;
+  }
+  
+  .flexBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }  
+  
+}

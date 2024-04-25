@@ -9,18 +9,15 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
- 
 }
 
-.containerProyects::-webkit-scrollbar{
+.containerProyects::-webkit-scrollbar {
   width: 117px;
-
 }
 
-.containerProyects::-webkit-scrollbar-thumb{
-background-color: red;
+.containerProyects::-webkit-scrollbar-thumb {
+  background-color: red;
 }
-
 
 .projects {
   background-color: #17191d;
@@ -76,10 +73,44 @@ h4 {
 .iconsMediaSize {
   width: 20px;
   padding: 3px;
-
-
 }
 .titleGh {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .containerAll {
+    width: 100%;
+    margin: auto;
+    margin-top: 120px;
+  }
+
+  .containerProyects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+
+  .projects {
+    background-color: #17191d;
+    border: 2px solid #6b7280;
+    border-radius: 10px;
+    padding: 10px;
+    width: 210px;
+    height: 220px;
+
+    margin: auto;
+  }
+
+  .titleProjects {
+    margin-top: 35px;
+  }
+
+  h4 {
+    margin-top: 5px;
+  }
+  .desProjects {
+    font-size: 15px;
+  }
 }
