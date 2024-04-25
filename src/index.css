@@ -49,7 +49,7 @@ a {
 /* Estilo base para los botones */
 .button {
   display: inline-block;
-  padding: 8px 10px;
+  padding: 6px 6px;
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
