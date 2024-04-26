@@ -12,13 +12,12 @@ const Header = () => {
           <h1 className={style.title}>Gonzalo Masa</h1>
           <div>
             <p className={style.sizeText}>
-              Programador web, enfocado en aprender y crecer continuamente.
-              Apasionado por el trabajo en equipo
+             Creo aplicaciones web modernas. Priorizo la calidad y la escalabilidad en cada proyecto. Enfocado en aprender y crecer continuamente.  
             </p>
             <div className={style.flexIconCountry}>
               <img className={style.iconSize} src={worldCountryIcon} alt="" />
               <p className={style.colorTextCountry}>
-                Ensenada, Buenos Aires, Argentina
+                Ensenada, Buenos Aires Argentina
               </p>
             </div>
 
