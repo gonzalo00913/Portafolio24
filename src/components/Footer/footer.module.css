@@ -61,4 +61,18 @@
     font-size: 12px;
    
 }
+.footer {
+  background-color: #17191d;
+  height: 36px;
+  padding: 18px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+}
+
 }
