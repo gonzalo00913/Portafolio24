@@ -91,5 +91,8 @@
     margin: auto;
     margin-top: 120px;
   }
-  
+  .form button{
+    font-size: 18px;
+    align-self:center;
+  }
 }

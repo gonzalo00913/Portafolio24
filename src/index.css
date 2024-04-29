@@ -14,13 +14,11 @@ body {
 
 body::-webkit-scrollbar {
   width: 7px;
-
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background-color: rgb(202, 71, 23);
-  }
-  
+}
 
 p {
   color: var(--text-color);
@@ -40,7 +38,6 @@ h2,
 h4 {
   color: var(--title-color);
 }
-
 
 a {
   color: white;
@@ -68,11 +65,20 @@ a {
   background-color: rgb(202, 71, 23);
 }
 
-
-
 @media screen and (max-width: 600px) {
   h2 {
     font-size: 21px;
     text-align: center;
+  }
+  .button {
+    padding: 6px 4px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }

@@ -75,63 +75,7 @@ const Contact = () => {
           {isSending ? "Enviando..." : "Enviar"}
         </button>
       </form>
-
-      {/*      
-      <div >
-        <form className={style.form} ref={formRef} onSubmit={handleSubmit}>
-
-          <div>
-            <div>
-              <label htmlFor="name"></label>
-              <input
-                placeholder="Ingresa tu nombre aqui..."
-                type="text"
-                className={style.input}
-                id="name"
-                name="name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-              />
-            </div>
-            <div className={style.containerEmail}>
-              <label htmlFor="email"></label>
-              <input
-                placeholder="Ingresa tu correo electronico aqui..."
-                type="email"
-                className={style.input}
-                id="email"
-                name="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-            </div>
-          </div>
-          <div className={style.containerMensaje}>
-            <label htmlFor="message"></label>
-            <textarea
-              placeholder="mensaje..."
-              className={style.inputTextarea}
-              id="message"
-              name="message"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            ></textarea>
-            <div className={style.containerBtn}>
-              <button className={style.buton} type="submit" disabled={isSending}>
-                {isSending ? "Enviando..." : "Enviar"}
-              </button>
-            </div>
-          </div>
-
-
-        </form>
-
-        
-      </div> */}
-
-
-
-    </div>
+  </div>
   );
 };
 
