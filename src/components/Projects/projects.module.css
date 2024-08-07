@@ -1,5 +1,5 @@
 .containerAll {
-  width: 740px;
+  width: 900px;
   margin: auto;
   margin-top: 150px;
   height: 1100px;
@@ -7,7 +7,7 @@
 
 .containerProyects {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -24,7 +24,7 @@
   border: 2px solid #6b7280;
   border-radius: 10px;
   padding: 10px;
-  width: 210px;
+  width: 220px;
   height: 220px;
   margin-top: 20px;
 }
@@ -44,6 +44,7 @@ h4 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: 6px;
 }
 
 .spanTecno {
@@ -77,6 +78,7 @@ h4 {
 .titleGh {
   display: flex;
   justify-content: space-between;
+ 
 }
 
 @media screen and (max-width: 600px) {
@@ -88,7 +90,6 @@ h4 {
 
   .containerProyects {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
  
    }
@@ -114,4 +115,94 @@ h4 {
   .desProjects {
     font-size: 15px;
   }
+  
+}
+
+
+
+.card {
+  padding: 20px;
+  width: 230px;
+  min-height: 370px;
+  border-radius: 20px;
+  background: #17191d;;
+  transition: 0.4s;
+  margin-bottom: 22px;
+}
+
+.card:hover {
+  translate: 0 -10px;
+}
+
+.cardtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e2e3e7d4;
+  margin: 0px 0 0 10px;
+}
+
+.cardimage {
+  min-height: 170px;
+  border-radius: 15px;
+}
+
+.cardbody {
+  margin: 13px 0 10px 10px;
+  color: rgb(184, 184, 184);
+  font-size: 15px;
+}
+
+.footer {
+  float: right;
+  margin: 28px 0 0 18px;
+  font-size: 13px;
+  color: #b3b3b3;
+}
+
+.by-name {
+  font-weight: 700;
+}
+
+.imgsize{
+  width: 100%;
+ cursor: pointer;
+  border-radius: 7px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.modalImage {
+  width: 100%;
+  height: auto;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: rgb(204, 21, 21);
+  background-color: rgb(32, 32, 32);
 }
